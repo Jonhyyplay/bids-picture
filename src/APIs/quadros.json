@@ -1,0 +1,11 @@
+{
+    "quadros": [
+        { "id": 1, "name": "Mona Lisa", "artista": "Leonardo da Vinci", "ano": 1503, "urlImg": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg" },
+        { "id": 2, "name": "Noite Estrelada", "artista": "Vincent van Gogh", "ano": 1889, "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/450px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+        { "id": 3, "name": "A Persistência da Memória", "artista": "Salvador Dalí", "ano": 1931, "urlImg": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg" },
+        { "id": 4, "name": "O Grito", "artista": "Edvard Munch", "ano": 1893, "urlImg": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg" },
+        { "id": 5, "name": "Moça com Brinco de Pérola", "artista": "Johannes Vermeer", "ano": 1665, "urlImg": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg" },
+        { "id": 6, "name": "Guernica", "artista": "Pablo Picasso", "ano": 1937, "urlImg": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg" },
+        { "id": 7, "name": "A Ronda Noturna", "artista": "Rembrandt", "ano": 1642, "urlImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/465px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg"}
+    ]
+}
