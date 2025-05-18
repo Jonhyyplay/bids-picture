@@ -1,0 +1,290 @@
+<!DOCTYPE html> <!--Declaração para definir que esse arquivo é HTML5-->
+<html lang="pt-br"> <!--Tag raiz. Tudo dentro dele será do arquivo-->
+<head> <!-- Metainformações adicionadas no arquivo-->
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <title>Bid'n Picture</title> <!--Título da página-->
+    <link rel="icon" href="./src/assets/icons/favicon.png" type="image/x-png">
+
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/vars.css">
+    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
+    <link rel="stylesheet" href="./src/assets/styles/media-queries.css">
+
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+         
+</head>
+
+<body>
+    <div class="sidebar">
+        <nav class="sidebar_navigation">
+            <div class="logo">
+                <a href="">
+                    <img src="./src/assets/icons/White_logo.png" alt="logo do Bid'n Picture">
+                </a>
+            </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-landmark"></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="fa fa-search"></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="library">
+                <div class="library__content">
+                    <button class="library__button">
+                        <span class="fa fas fa-handshake"></span>
+                        <span>Seus lances</span>
+                    </button>
+                    <span class=" fa fa-plus"></span>
+                </div> 
+                <section class="section-quadros">
+                    <div class="section-quadros__content">
+                        <span class="text title">Inicie seu primeiro leilão</span>
+                        <span class="text subtitle">É fácil, vamos te ajudar.</span>
+                        <button class="section-quadros__button">
+                            <span>Começar leilão</span>
+                        </button> 
+                    </div>
+                </section>
+                <div class="cookies">
+                    <a href="">Cookies</a>
+                </div>
+                <div class="languages">
+                    <button class="languages__button">
+                        <span class="fa fa-globe"></span>
+                        <span>Português do Brasil</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="main-container">
+                <nav class="header__navigation">
+                    <div class="navigation">
+                        <button class="arrow-left">
+                            <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="./src/assets/icons/small-right.png" alt="Seta direita">
+                        </button>
+                    </div>
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que deseja procurar?" />
+                    </div>
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+
+                <div class="quadros">
+                    <div id="quadros-container">
+                        <div class="quadros">
+                            <h1 id="greeting">Bem-vindo</h1>
+                            <h2 class="greeting-subtitle">Veja os lances de hoje!</h2>
+                        </div>
+
+                        <div class="offer__scroll-container">
+                            <div class="offer__list">
+                                <section class="offer__list-item">
+                                    <!-- CARD 1 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card1">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Girassóis.jpg" alt="" />
+                                            <span>Populares</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 2 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card2">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/abaporu-de-tarsila-do-amaral.jpg" alt="" />
+                                            <span>Arte Brasileira</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 3 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card3">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Moça com Brinco de Pérola.jpg" alt="" />
+                                            <span>Obras Icônicas</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 4 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card4">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/noite-estrelada.jpg" alt="" />
+                                            <span>Pós-impressionismo</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 5 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card5">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/O Grito.jpg" alt="" />
+                                            <span>Expressionismo</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 6 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card6">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/OIP.jpg" alt="" />
+                                            <span>Vale a pena!</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 7 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card7">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/punk5822.png" alt="" />
+                                            <span>Arte Digital</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 8 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card8">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/NFT.jpg" alt="" />
+                                            <span>NFTs</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 9 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card9">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Renascimento.jpg" alt="" />
+                                            <span>Renascimento</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 10 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card10">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Guernica.jpg" alt="" />
+                                            <span>Surrealismo</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 11 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card11">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Abstrata (1).jpg" alt="" />
+                                            <span>Arte Abstrata</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 12 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card12">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Romantismo.webp" alt="" />
+                                            <span>É muito amor</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 13 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card13">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Minimalismo-2.jpg" alt="" />
+                                            <span>Obra Minimalista</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 14 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card14">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/quadrinho superman.jpg" alt="" />
+                                            <span>Essa é rara!</span>
+                                        </div>
+                                    </a>
+    
+                                    <!-- CARD 15 -->
+                                    <a href="" class="cards">
+                                        <div class="cards card15">
+                                            <img src="./src/assets/Quadros Famosos e NFTs/Jarro.jpg" alt="" />
+                                            <span>Arte Latina</span>
+                                        </div>
+                                    </a>
+                                        </div>
+                                    </a>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="result-quadros" class="hidden">
+                        <div class="grid-container">
+                            <div class="quadros-card" id="">
+                                <div class="card-img">
+                                    <img id="quadros-img" class="quadros-img" />
+                                    <div class="dollar">
+                                        <span class="fas fa-dollar-sign"></span>
+                                    </div>
+                                </div>
+                                <div class="card-text">
+                                    <span class="quadros-name" id="quadros-name"></span>
+                                    <span class="quadros-categorie">Pintura</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                        
+                    </div>
+                </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h3>Sobre</h3>
+                        <ul>
+                            <li><a href="#">Empresas</a></li>
+                            <li><a href="#">Políticas de Privacidade</a></li>
+                            <li><a href="#">Termos e Uso</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3>Comunidade</h3>
+                        <ul>
+                            <li><a href="#">Artistas</a></li>
+                            <li><a href="#">Colecionadores</a></li>
+                            <li><a href="#">Criadores de NFts</a></li>
+                            <li><a href="#">Ajuda</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h3>Contate-nos</h3>
+                        <div class="footer__social">
+                            <a href="#"><span class="fas fa-sms"></span></a>
+                            <a href="#"><span class="fas fa-phone"></span></a>
+                            <a href="#"><span class="fas fa-envelope"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                <p>&copy; 2024 - Bid'n Picture. Todos os direitos reservados</p>
+            </div>
+        </footer>
+    <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html> <!--Fechamento da Tag raiz.-->
