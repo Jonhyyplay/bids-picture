@@ -9,34 +9,20 @@ function requestApi(searchTerm) {
         .then((result) => displayResults(result, searchTerm)) //os then estão servindo para pegar o resultado da requisição e transformar em json 
 }
 
-function displayResults(result, searchTerm) {
+function displayResults(result) {
     resultContainer.classList.add('hidden');
-    resultQuadros.classList.remove('hidden');
-    const gridContainer = document.querySelector('grid-container');
-    gridContainer.innerHTML = ''; // serve para limpar os resultados anteriores
 
-    const filteredQuadros = result.filter((quadro) => quadro.name.toLowerCase().includes(searchTerm)); // serve para filtrar os quadros que contém o termo de busca
+    const quadrosName = document.getElementById('quadros-name');
+    const quadrosImage = document.getElementById('quadros-img');
 
-    filteredQuadros.forEach(quadros => {
-        const quadrosCard = document.createElement('div');
-        quadrosCard.classList.add('quadros-card');
-
-    quadrosCard.innerHTML = `
-    <div class ="card-img">
-        <img class ="quadros-img" src="${quadros.urlImg}" />
-        <div class="dolla">
-            <span class="fas fa-dollar-sign"></span>
-            </div>
-        </div>
-        <div class="card-text">
-            <span class="quadros-name">${quadros.name}</span>
-            <span class="quadros-categorie">Pintura</span>
-        </div>
-        `;
-        gridContainer.appendChild(quadrosCard);
-    });
-
-    resultQuadros.classList.remove('hidden');
+    if (result.length > 0) {
+        const quadro = result[0]; // pega o primeiro resultado
+        quadrosName.innerText = quadro.name;
+        quadrosImage.src = quadro.urlImg;
+        resultQuadros.classList.remove('hidden');
+    } else {
+        resultQuadros.classList.add('hidden');
+    }
 }
 
 document.addEventListener('input', function () {
