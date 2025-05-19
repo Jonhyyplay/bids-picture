@@ -81,7 +81,7 @@ Basta abrir o arquivo `index.html` no navegador ou rodar com a extensão **Live 
 
 ## 🎯 Próximos Passos
 
-- [ ] Corrigir a API para exibir apenas o quadro pesquisado  
+- [ ] Corrigir a API para exibir o quadro pesquisado  
 - [ ] Melhorar a responsividade  
 - [ ] Implementar React para maior dinamismo  
 
