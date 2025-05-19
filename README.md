@@ -87,4 +87,4 @@ Basta abrir o arquivo `index.html` no navegador ou rodar com a extensão **Live 
 
 ## Considerações finais
 
-Esse projeto foi feito durante a ** **Imersão Front-end - 2ª Edição da Alura** e foi uma ótima oportunidade para praticar e aprender novas funcionalidades no mundo da programação, além de tentar praticar minha criatividade.
+Esse projeto foi feito durante a **Imersão Front-end - 2ª Edição da Alura** e foi uma ótima oportunidade para praticar e aprender novas funcionalidades no mundo da programação, além de tentar praticar minha criatividade.
