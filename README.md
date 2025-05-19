@@ -1,5 +1,5 @@
 
-# 🎨 Bid'n Picture - Leilão de Obras de Arte
+# 🎨 Bid'n Picture - Leilão de Obras de Arte e NFTs
 
 Neste projeto, criei uma interface inspirada no Spotify utilizando **HTML, CSS e JavaScript**. Como diferencial, personalizei a aplicação para exibir um **leilão virtual de obras de arte e NFTs** (ideia criativa que tive no dia 😅), permitindo a busca e exibição de quadros de artistas renomados.
 
@@ -75,9 +75,13 @@ Basta abrir o arquivo `index.html` no navegador ou rodar com a extensão **Live 
 ]
 ```
 
+## 🖼️ Parte da Interface do software
+
+![alt text](image.png)
+
 ## 🎯 Próximos Passos
 
-- [ ] Corrigir a API para exibir apenas o quadro pesquisado  
+- [ ] Corrigir a API para exibir o quadro pesquisado  
 - [ ] Melhorar a responsividade  
 - [ ] Implementar React para maior dinamismo  
 
