@@ -1,4 +1,4 @@
-const searchImput = document.getElementById('search-input'); // serve para pegar o input de busca
+const searchInput = document.getElementById('search-input'); // serve para pegar o input de busca
 const resultQuadros = document.getElementById('result-quadros'); // serve para pegar o resultado dos quadros
 const resultContainer = document.getElementById('quadros-container'); // serve para pegar o resultado das playlists
 
@@ -9,14 +9,16 @@ function requestApi(searchTerm) {
         .then((result) => displayResults(result, searchTerm)) //os then estão servindo para pegar o resultado da requisição e transformar em json 
 }
 
-function displayResults(result) {
+function displayResults(result, searchTerm) {
     resultContainer.classList.add('hidden');
 
     const quadrosName = document.getElementById('quadros-name');
     const quadrosImage = document.getElementById('quadros-img');
 
-    if (result.length > 0) {
-        const quadro = result[0]; // pega o primeiro resultado
+    // Procura o quadro cujo nome seja exatamente igual ao termo pesquisado (que nem o Spotify kkkkkkkkk)
+    const quadro = result.find(q => q.name.toLowerCase() === searchTerm);
+
+    if (quadro) {
         quadrosName.innerText = quadro.name;
         quadrosImage.src = quadro.urlImg;
         resultQuadros.classList.remove('hidden');
@@ -26,7 +28,7 @@ function displayResults(result) {
 }
 
 document.addEventListener('input', function () {
-    const searchTerm = searchImput.value.toLowerCase().trim();
+    const searchTerm = searchInput.value.toLowerCase().trim();
 
     if (searchTerm === '') {
         resultContainer.classList.add('hidden');
