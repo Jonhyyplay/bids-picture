@@ -61,7 +61,7 @@ Basta abrir o arquivo `index.html` no navegador ou rodar com a extensão **Live 
 
 ## 🖼️ Parte da Interface do software
 
-
+https://github.com/user-attachments/assets/4850ddcf-b067-4a4d-b22c-0055d87b5502
 
 ## 🎯 Próximos Passos
 
