@@ -3,7 +3,7 @@
 
 Neste projeto, criei uma interface inspirada no Spotify utilizando **HTML, CSS e JavaScript**. Como diferencial, personalizei a aplicação para exibir um **leilão virtual de obras de arte e NFTs** (ideia criativa que tive no dia 😅), permitindo a busca e exibição de quadros de artistas renomados.
 
-Atualmente, o projeto está em desenvolvimento, com algumas funcionalidades pendentes, como a integração correta da API. Futuramente, pretendo aprimorar o projeto, incluindo a implementação do **React** e ajustes na filtragem de obras.
+Atualmente, o projeto está em desenvolvimento, com algumas funcionalidades pendentes. Futuramente, pretendo arrumar essas pendências, incluindo a implementação do **React**.
 
 ## 🚀 Funcionalidades
 
@@ -11,11 +11,6 @@ Atualmente, o projeto está em desenvolvimento, com algumas funcionalidades pend
 ✔️ Exibição de quadros e obras de arte  
 ✔️ Busca por nome do quadro  
 ✔️ Estilização responsiva  
-
-⚠️ **Pendências**:  
-
-- Como mencionado, a correção da API para filtrar corretamente as obras pesquisadas  
-- Integração com React (futuramente)  
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -54,34 +49,23 @@ Isso fará com que a API rode em `http://localhost:3000/quadros`.
 
 Basta abrir o arquivo `index.html` no navegador ou rodar com a extensão **Live Server** no VS Code.
 
-## 🖼️ Exemplo de Dados da API (`quadros.json`)
+## 🖼️ Quadros presentes para pesquisar, até o momento (`quadros.json`)
 
-```json
-[
-    {
-        "id": 1,
-        "titulo": "Mona Lisa",
-        "artista": "Leonardo da Vinci",
-        "ano": 1503,
-        "urlImg": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg"
-    },
-    {
-        "id": 2,
-        "titulo": "Noite Estrelada",
-        "artista": "Vincent van Gogh",
-        "ano": 1889,
-        "urlImg": "https://www.moma.org/media/W1siZiIsIjMwMjUwMCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEwMjR4Il1d.jpg"
-    }
-]
-```
+- Mona Lisa
+- Noite Estrelada
+- A Persistência da Memória
+- O Grito
+- Moça com brinco de Pérola
+- Guernica
+- A Ronda noturna
 
 ## 🖼️ Parte da Interface do software
 
-![alt text](image.png)
+
 
 ## 🎯 Próximos Passos
 
-- [ ] Corrigir a API para exibir o quadro pesquisado  
+- [x] Corrigir a API para exibir o quadro pesquisado  
 - [ ] Melhorar a responsividade  
 - [ ] Implementar React para maior dinamismo  
 
