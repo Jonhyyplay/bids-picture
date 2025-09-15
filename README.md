@@ -64,11 +64,6 @@ Basta abrir o arquivo `index.html` no navegador ou rodar com a extensão **Live 
 https://github.com/user-attachments/assets/4850ddcf-b067-4a4d-b22c-0055d87b5502
 
 ## 🎯 Próximos Passos
-
-- [x] Corrigir a API para exibir o quadro pesquisado  
+ 
 - [ ] Melhorar a responsividade  
 - [ ] Implementar React para maior dinamismo  
-
-## Considerações finais
-
-Esse projeto foi feito durante a **Imersão Front-end - 2ª Edição da Alura** e foi uma ótima oportunidade para praticar e aprender novas funcionalidades no mundo da programação, além de tentar praticar minha criatividade.
